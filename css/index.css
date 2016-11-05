@@ -1,0 +1,95 @@
+@import url(base.css);
+.singles-day{
+	width: 100%;
+	
+ }
+p.con1{
+	 color:#fc644e;
+	 margin:0 auto;
+	 max-width:800px;
+	 font-size: 18px;
+	 text-align:left;
+	 line-height: 30px;
+   margin-bottom:20px;
+
+}
+.singles-day h1{
+	 font-size: 36px;
+	 color:#fc5a45;
+	
+}
+
+/*活动一*/
+.active1-box{
+	width: 1000px;
+	height:272px;
+	background: #fc5a45;
+	border-radius:4px;
+	margin:0 auto;
+ }
+ .active1-box span,.active1-box em{
+ 	 color:#fff;
+ 	 font-size: 20px;
+ 	 font-style: normal;
+ 	 
+ }
+ .active1-box-padding{
+ 	padding-left:92px;
+  	 box-sizing:border-box;
+  	 padding-top:80px;
+ }
+  .active1-box div{
+  	margin-bottom:20px;
+  	 position:relative;
+  	 
+  }
+  .active1{
+  	margin:0 auto;
+  	text-align:center;
+    margin-bottom:29px;
+  }
+  .active2{
+     height:102px;
+  }
+  .active1 img{
+  	 display: inline-block;
+  }
+  .active1-box div em{
+  	 margin-left:18px;
+  }
+  .active1-tit{
+  	
+  	 width: 534px;
+  	 height:52px;
+  	 background: #fcde00;
+  	 margin:0 auto;
+  	 position: absolute;
+  	 left:50%;
+  	 margin-left:-267px;
+  	 top:-16px;
+  }
+  .active1-tit>img{
+  	 display: block;
+  	 margin:0 auto;
+  	 
+  }
+  .active2-box{
+  	margin-bottom:25px;
+  	margin-top:10px;
+  	height:424px;
+  }
+.active2-box table{
+	 width: 501px;
+	 margin-left:66px;
+	 border-radius:20px;
+	 background: #fff;
+}
+.active2-box table td{
+	width: 50%;
+	text-align: center;
+	border-right:1px solid #fc5a45;
+	border-bottom:1px solid #fc5a45;
+	height:48px;
+	font-size: 20px;
+	color:#fc5a45;
+}
