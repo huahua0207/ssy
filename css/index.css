@@ -1,16 +1,48 @@
 @import url(base.css);
+body{
+	background:url("../img/bg.png") no-repeat;
+	background-repeat:no-repeat;
+	
+	background-position:center top;
+	background-size:cover;
+	width:100%;
+}
+.header-text{
+	width: 100%;
+    height: 166px;
+    background: url(../img/gb.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    margin-top: 194px;
+    background-size: 23%;
+}
+.jx{
+	width: 526px;
+	height:47px;
+	margin:0 auto;
+	margin-top:20px;
+	text-align:center;
+	line-height: 47px;
+	color:#fff;
+	font-size: 22px;
+	background-size:10%;
+	background:url(../img/juxing.png);
+	background-repeat:no-repeat;
+	/*background-position: center bottom;*/
+}
 .singles-day{
 	width: 100%;
 	
  }
 p.con1{
-	 color:#fc644e;
-	 margin:0 auto;
-	 max-width:800px;
-	 font-size: 18px;
-	 text-align:left;
-	 line-height: 30px;
-   margin-bottom:20px;
+	color: #fc644e;
+   
+    margin: 36% auto 20px auto;
+    max-width: 800px;
+    font-size: 18px;
+    text-align: left;
+    line-height: 30px;
+   
 
 }
 .singles-day h1{
@@ -23,6 +55,7 @@ p.con1{
 .active1-box{
 	width: 1000px;
 	height:272px;
+	position: relative;
 	background: #fc5a45;
 	border-radius:4px;
 	margin:0 auto;
@@ -36,37 +69,68 @@ p.con1{
  .active1-box-padding{
  	padding-left:92px;
   	 box-sizing:border-box;
+  	 
   	 padding-top:80px;
  }
   .active1-box div{
-  	margin-bottom:20px;
-  	 position:relative;
+  	line-height: 36px;
+  	 /*position:relative;*/
   	 
   }
   .active1{
   	margin:0 auto;
   	text-align:center;
-    margin-bottom:29px;
+    margin-bottom:36px;
   }
+  
   .active2{
      height:102px;
+  }
+  .active2>img{
+  	margin-top:45px;
   }
   .active1 img{
   	 display: inline-block;
   }
   .active1-box div em{
-  	 margin-left:18px;
+  	 margin-left:11px;
   }
   .active1-tit{
   	
-  	 width: 534px;
-  	 height:52px;
-  	 background: #fcde00;
-  	 margin:0 auto;
-  	 position: absolute;
-  	 left:50%;
-  	 margin-left:-267px;
-  	 top:-16px;
+  	width: 534px;
+    height: 52px;
+    position: absolute;
+    left: 50%;
+    margin-left: -267px;
+    top: -20px;
+    background: #fcde00 url(../img/active1-tit.png) ;
+    background-repeat:no-repeat;
+    background-position: center 13px;
+    z-index: 3;
+    border-radius:0 0 13px 13px;
+  }
+  .active2-tit{
+  	 background: #fcde00 url(../img/active2-tit.png) ;
+  	  background-repeat:no-repeat;
+  	  position: absolute;
+    left: 50%;
+    margin-left: -267px;
+    background-position: center 13px;
+    top: -20px;
+  	 
+  	  
+  }
+  .yjjx{
+  	position: absolute;
+    height: 20px;
+    width: 565px;
+    background: #911724;
+    left: 50%;
+    margin-left: -282.5px;
+    top: -20px;
+    z-index: 0;
+    border-radius: 21px 21px 0px 0px;
+    /* border-radius: 23% 44% 0 0; */
   }
   .active1-tit>img{
   	 display: block;
@@ -83,6 +147,8 @@ p.con1{
 	 margin-left:66px;
 	 border-radius:20px;
 	 background: #fff;
+	 margin-top:94px;
+	 float: left;
 }
 .active2-box table td{
 	width: 50%;
@@ -92,4 +158,27 @@ p.con1{
 	height:48px;
 	font-size: 20px;
 	color:#fc5a45;
+}
+.active2-right{
+	float: right;
+	margin-right:35px;
+	margin-top:130px;
+}
+.active2-right div{
+	max-width: 358px;
+	
+	
+}
+.active2-right div em{
+	line-height: 15px;
+	text-align:right;
+}
+.active2-right div span{
+	
+}
+.active2-right div.s-size{
+font-size: 16px;
+line-height: 24px!important;
+color:#fff;
+margin-top:20px;
 }
