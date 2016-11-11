@@ -4,7 +4,7 @@ body{
 	background-repeat:no-repeat;
 	
 	background-position:center top;
-	/*background-size:cover;*/
+	background-size:cover;
 	width:100%;
 	position: relative;
 	
@@ -199,3 +199,4 @@ line-height: 24px!important;
 color:#fff;
 margin-top:20px;
 }
+/*响应式*/
